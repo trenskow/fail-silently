@@ -1,6 +1,6 @@
 {
   "name": "@trenskow/fail-silently",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple function wrapper for ignoring errors thrown.",
   "main": "index.js",
   "scripts": {
@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/trenskow/fail-silently#readme",
   "devDependencies": {
-    "chai": "^4.3.4",
+    "chai": "^4.3.6",
     "chai-as-promised": "^7.1.1",
-    "eslint": "^8.1.0",
-    "mocha": "^9.1.3"
+    "eslint": "^8.13.0",
+    "mocha": "^9.2.2"
   }
 }
