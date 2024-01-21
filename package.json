@@ -3,6 +3,7 @@
   "version": "0.1.15",
   "description": "A simple function wrapper for ignoring errors thrown.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha.js test/index.js"
   },

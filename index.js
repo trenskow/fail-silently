@@ -1,6 +1,4 @@
-'use strict';
-
-exports = module.exports = function(fnc) {
+export default function(fnc) {
 
 	return (...args) => {
 
@@ -18,4 +16,4 @@ exports = module.exports = function(fnc) {
 
 	};
 
-};
+}

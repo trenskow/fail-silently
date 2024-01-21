@@ -1,12 +1,10 @@
-'use strict';
 
-const
-	{ expect } = require('chai');
+import { use as chaiUse, expect } from 'chai';
+import chaiAsPromised from 'chai-as-promised';
 
-require('chai').use(require('chai-as-promised'));
+chaiUse(chaiAsPromised);
 
-const
-	failSilently = require('../');
+import failSilently from '../index.js';
 
 describe('fail-silently', () => {
 
