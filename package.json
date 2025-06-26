@@ -1,6 +1,6 @@
 {
 	"name": "@trenskow/fail-silently",
-	"version": "0.2.23",
+	"version": "0.2.24",
 	"description": "A simple function wrapper for ignoring errors thrown.",
 	"main": "index.js",
 	"type": "module",
